@@ -1,5 +1,5 @@
 # Easy Calculator
-Remember those days, when you scratch your heads for simple conversions quickly like metre to centimetre, days to seconds, etc. Now there's no need to worry!! Calculations or conversions, its all done by a single click. Not only you can use it as a converter but also as calculator.
+Remember those days, when you scratch your heads for simple conversions quickly like metre to centimetre, days to seconds, etc. Now there's no need to worry!! Calculations or conversions, its all done by a single click. Not only you can use it as a converter but also as calculator. The application is made in Android Studio.
 
 Features:
 conversions of units

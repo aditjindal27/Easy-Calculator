@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="adit.easycalculator.Converter"
+    android:id="@+id/Converter"
+    android:background="#FFA500"
+    android:clickable="true">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Length"
+        android:id="@+id/button19"
+        android:onClick="Length"
+        android:layout_below="@+id/button26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="More coming soon!"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/button28"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Area"
+        android:id="@+id/button24"
+        android:onClick="Area"
+        android:layout_below="@+id/button19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:id="@+id/button26"
+        android:onClick="Calculator"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="TEMPERATURE"
+        android:id="@+id/button28"
+        android:onClick="Temp"
+        android:layout_below="@+id/button24" />
+
+
+</RelativeLayout>

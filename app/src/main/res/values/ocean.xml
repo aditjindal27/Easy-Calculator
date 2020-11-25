@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="adits_bg_color">#79CDCD</color>
+    <style name="aditstheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:windowBackground">@color/adits_bg_color</item>
+    </style>
+
+    </resources>
